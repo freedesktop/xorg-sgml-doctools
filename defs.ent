@@ -2,10 +2,11 @@
 
 <!-- shared entity definitions for the XFree86 documentation -->
 
-<!-- XFree86 version string -->
+<!-- Xorg version string -->
 <!ENTITY majorvers CDATA "6">
 <!ENTITY reldate CDATA "9 February 2005">
 <!ENTITY relvers CDATA "6.8.2">
+<!ENTITY lastfullrelvers CDATA "6.8">
 <!ENTITY prevrelvers CDATA "6.8.1">
 <!ENTITY fullrelvers CDATA "6.8.2">
 <!ENTITY prevfullrelvers CDATA "6.8.0">
@@ -19,6 +20,7 @@
 <!ENTITY fullsrcvers CDATA "440">
 <!ENTITY prevfullsrcvers CDATA "680">
 <!ENTITY whichfullrel CDATA "eighth">
+<!ENTITY whichxorgrel CDATA "fourth">
 <!ENTITY whichupdaterel CDATA "second">
 <!ENTITY reltag CDATA "XORG-6_8_2">
 <!ENTITY relbranchtag CDATA "XORG-6_8-branch">
