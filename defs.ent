@@ -16,8 +16,8 @@
 <!ENTITY prevfullsrcvers CDATA "660">
 <!ENTITY whichfullrel CDATA "seventh">
 <!ENTITY whichupdaterel CDATA "none">
-<!ENTITY reltag CDATA "xo-6.7_0">
-<!ENTITY relbranchtag CDATA "xo-6.7-branch">
+<!ENTITY reltag CDATA "XORG-6_7_0">
+<!ENTITY relbranchtag CDATA "XORG-6_7-branch">
 <!ENTITY rcnum CDATA "0">
 
 <!-- Version of the most recent 3.3.x release -->
