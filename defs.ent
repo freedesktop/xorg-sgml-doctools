@@ -4,23 +4,23 @@
 
 <!-- XFree86 version string -->
 <!ENTITY majorvers CDATA "6">
-<!ENTITY reldate CDATA "8 September 2004">
-<!ENTITY relvers CDATA "6.8">
-<!ENTITY prevrelvers CDATA "6.7">
-<!ENTITY fullrelvers CDATA "6.8.0">
-<!ENTITY prevfullrelvers CDATA "6.7.0">
+<!ENTITY reldate CDATA "17 September 2004">
+<!ENTITY relvers CDATA "6.8.1">
+<!ENTITY prevrelvers CDATA "6.8">
+<!ENTITY fullrelvers CDATA "6.8.1">
+<!ENTITY prevfullrelvers CDATA "6.8.0">
 <!ENTITY nextrelvers CDATA "7.0">
 <!ENTITY nextfullrelvers CDATA "7.0.0">
 <!ENTITY nextfullreldate CDATA "early 2005">
-<!ENTITY nextupdrelvers CDATA "6.8.1">
+<!ENTITY nextupdrelvers CDATA "6.8.2">
 
 <!ENTITY srcvers CDATA "440">
-<!ENTITY prevsrcvers CDATA "660">
+<!ENTITY prevsrcvers CDATA "680">
 <!ENTITY fullsrcvers CDATA "440">
-<!ENTITY prevfullsrcvers CDATA "660">
+<!ENTITY prevfullsrcvers CDATA "680">
 <!ENTITY whichfullrel CDATA "eighth">
 <!ENTITY whichupdaterel CDATA "none">
-<!ENTITY reltag CDATA "XORG-6_8_0">
+<!ENTITY reltag CDATA "XORG-6_8_1">
 <!ENTITY relbranchtag CDATA "XORG-6_8-branch">
 <!ENTITY rcnum CDATA "0">
 
