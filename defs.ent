@@ -4,7 +4,7 @@
 
 <!-- XFree86 version string -->
 <!ENTITY majorvers CDATA "6">
-<!ENTITY reldate CDATA "15 September 2004">
+<!ENTITY reldate CDATA "17 September 2004">
 <!ENTITY relvers CDATA "6.8.1">
 <!ENTITY prevrelvers CDATA "6.8">
 <!ENTITY fullrelvers CDATA "6.8.1">
