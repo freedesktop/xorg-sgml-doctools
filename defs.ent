@@ -3,18 +3,19 @@
 <!-- shared entity definitions for the XFree86 documentation -->
 
 <!-- XFree86 version string -->
-<!ENTITY relvers CDATA "6.7.0">
-<!ENTITY prevrelvers CDATA "6.6.0">
-<!ENTITY fullrelvers CDATA "6.7.0">
-<!ENTITY prevfullrelvers CDATA "6.6.0">
-<!ENTITY nextfullrelvers CDATA "7.0.0">
+<!ENTITY relvers CDATA "6.8.0">
+<!ENTITY prevrelvers CDATA "6.7.0">
+<!ENTITY fullrelvers CDATA "6.8.0">
+<!ENTITY prevfullrelvers CDATA "6.7.0">
+<!-- <!ENTITY nextfullrelvers CDATA "7.0.0">
 <!ENTITY nextfullreldate CDATA "mid-late 2004">
-<!ENTITY nextupdrelvers CDATA "6.7.1">
+<!ENTITY nextupdrelvers CDATA "6.8.1">
+-->
 <!ENTITY srcvers CDATA "440">
 <!ENTITY prevsrcvers CDATA "660">
 <!ENTITY fullsrcvers CDATA "440">
 <!ENTITY prevfullsrcvers CDATA "660">
-<!ENTITY whichfullrel CDATA "seventh">
+<!ENTITY whichfullrel CDATA "eights">
 <!ENTITY whichupdaterel CDATA "none">
 <!ENTITY reltag CDATA "XORG-6_7_0">
 <!ENTITY relbranchtag CDATA "XORG-6_7-branch">
