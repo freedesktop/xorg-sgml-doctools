@@ -1,3 +1,8 @@
+2005-12-19  Kevin E. Martin  <kem-at-freedesktop-dot-org>
+
+	* defs.ent:
+	Update defs.ent from monolith.
+
 2005-12-14  Kevin E. Martin  <kem-at-freedesktop-dot-org>
 
 	* configure.ac:

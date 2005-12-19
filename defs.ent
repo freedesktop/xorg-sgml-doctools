@@ -4,25 +4,29 @@
 
 <!-- XFree86 version string -->
 <!ENTITY majorvers CDATA "6">
-<!ENTITY reldate CDATA "8 September 2004">
-<!ENTITY relvers CDATA "6.8">
-<!ENTITY prevrelvers CDATA "6.7">
-<!ENTITY fullrelvers CDATA "6.8.0">
-<!ENTITY prevfullrelvers CDATA "6.7.0">
-<!ENTITY nextrelvers CDATA "7.0">
-<!ENTITY nextfullrelvers CDATA "7.0.0">
-<!ENTITY nextfullreldate CDATA "early 2005">
-<!ENTITY nextupdrelvers CDATA "6.8.1">
+<!ENTITY reldate CDATA "21 December 2005">
+<!ENTITY relvers CDATA "6.9">
+<!ENTITY prevrelvers CDATA "6.8">
+<!ENTITY fullrelvers CDATA "6.9.0">
+<!ENTITY prevfullrelvers CDATA "6.8.0">
+<!ENTITY nextrelvers CDATA "7.1">
+<!ENTITY nextfullrelvers CDATA "7.1.0">
+<!ENTITY nextfullreldate CDATA "mid 2006">
+<!ENTITY nextupdrelvers CDATA "6.9.1">
 
 <!ENTITY srcvers CDATA "440">
 <!ENTITY prevsrcvers CDATA "660">
 <!ENTITY fullsrcvers CDATA "440">
 <!ENTITY prevfullsrcvers CDATA "660">
-<!ENTITY whichfullrel CDATA "eighth">
+<!ENTITY whichfullrel CDATA "ninth">
 <!ENTITY whichupdaterel CDATA "none">
-<!ENTITY reltag CDATA "XORG-6_8_0">
-<!ENTITY relbranchtag CDATA "XORG-6_8-branch">
+<!ENTITY reltag CDATA "XORG-6_9_0">
+<!ENTITY relbranchtag CDATA "XORG-6_9-branch">
 <!ENTITY rcnum CDATA "0">
+
+<!ENTITY modvers CDATA "7.0">
+<!ENTITY modmajor CDATA "7">
+<!ENTITY modtag CDATA "XORG-7_0_0">
 
 <!-- Version of the most recent 3.3.x release -->
 <!ENTITY legacyvers CDATA "3.3.6">
@@ -53,4 +57,3 @@
 
 <!-- Set this to INCLUDE when references to the RELNOTES are to be included -->
 <!ENTITY % haverelnotes 'INCLUDE'>
-
