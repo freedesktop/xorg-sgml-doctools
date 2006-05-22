@@ -1,3 +1,8 @@
+2006-05-22  Adam Jackson  <ajax@freedesktop.org>
+
+	* configure.ac:
+	Bump to 1.1
+
 2006-05-22  Kevin E. Martin  <kem-at-freedesktop-dot-org>
 
 	* defs.ent:
