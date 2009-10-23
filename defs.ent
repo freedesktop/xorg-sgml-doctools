@@ -4,7 +4,7 @@
 <!-- since we don't do micro (7.x.y) releases of the katamari, *relvers
 	are now the same as *fullrelvers -->
 <!ENTITY majorvers CDATA "7">
-<!ENTITY reldate CDATA "September 2009">
+<!ENTITY reldate CDATA "October 2009">
 <!ENTITY relvers CDATA "7.5">
 <!ENTITY fullrelvers CDATA "7.5">
 <!ENTITY prevrelvers CDATA "7.4">
@@ -14,15 +14,15 @@
 <!ENTITY nextfullreldate CDATA "2010">
 
 <!ENTITY whichfullrel CDATA "sixth">
-<!ENTITY rcnum CDATA "1">
+<!ENTITY rcnum CDATA "0">
 
 <!-- These should be set according to which snapshot/release this is -->
 <!ENTITY % firstsnap 'IGNORE'>
 <!ENTITY % latersnap 'IGNORE'>
-<!ENTITY % snapshot 'INCLUDE'>
-<!ENTITY % notsnapshot 'IGNORE'>
-<!ENTITY % relcandidate 'INCLUDE'>
-<!ENTITY % release 'IGNORE'>
+<!ENTITY % snapshot 'IGNORE'>
+<!ENTITY % notsnapshot 'INCLUDE'>
+<!ENTITY % relcandidate 'IGNORE'>
+<!ENTITY % release 'INCLUDE'>
 <!ENTITY % firstrel 'IGNORE'>
 <!ENTITY % earlyrel 'IGNORE'>
 <!ENTITY % laterrel 'INCLUDE'>
