@@ -24,9 +24,12 @@ sgmlentdir = $(prefix)/share/sgml/X11
 dist_sgmlent_DATA = defs.ent
 
 
-.PHONY: ChangeLog
+.PHONY: ChangeLog INSTALL
+
+INSTALL:
+	$(INSTALL_CMD)
 
 ChangeLog:
 	$(CHANGELOG_CMD)
 
-dist-hook: ChangeLog
+dist-hook: ChangeLog INSTALL
