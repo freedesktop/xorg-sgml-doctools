@@ -23,6 +23,7 @@ sgmlentdir = $(prefix)/share/sgml/X11
 
 dist_sgmlent_DATA = defs.ent
 
+MAINTAINERCLEANFILES = ChangeLog INSTALL
 
 .PHONY: ChangeLog INSTALL
 
