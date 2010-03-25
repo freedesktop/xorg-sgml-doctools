@@ -35,4 +35,5 @@ AC_PROG_INSTALL
 
 AC_OUTPUT([
 	Makefile
+	xorg-sgml-doctools.pc
 ])

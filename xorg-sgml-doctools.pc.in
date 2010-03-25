@@ -1,0 +1,6 @@
+prefix=@prefix@
+sgmlrootdir=${prefix}/share/sgml
+
+Name: xorg-sgml-doctools
+Description: SGML entities for X.Org documentation
+Version: @VERSION@

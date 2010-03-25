@@ -23,6 +23,9 @@ sgmlentdir = $(prefix)/share/sgml/X11
 
 dist_sgmlent_DATA = defs.ent
 
+pkgconfigdir = $(datadir)/pkgconfig
+pkgconfig_DATA = xorg-sgml-doctools.pc
+
 MAINTAINERCLEANFILES = ChangeLog INSTALL
 
 .PHONY: ChangeLog INSTALL
