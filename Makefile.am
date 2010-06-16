@@ -19,9 +19,9 @@
 #  TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
 #  PERFORMANCE OF THIS SOFTWARE.
 
-sgmlentdir = $(prefix)/share/sgml/X11
+sgmldir = $(prefix)/share/sgml/X11
 
-dist_sgmlent_DATA = defs.ent
+dist_sgml_DATA = defs.ent xorg.css xorg.xsl
 
 pkgconfigdir = $(datadir)/pkgconfig
 pkgconfig_DATA = xorg-sgml-doctools.pc
