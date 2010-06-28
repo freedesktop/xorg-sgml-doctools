@@ -34,7 +34,7 @@ div.sect1 {
 }
 
 .structname, .property, .errorname, .function, .parameter, .filename,
-.type, .symbol, .funcsynopsis, .synopsis {
+.type, .symbol, .funcsynopsis, .synopsis, .screen {
   font-family: monospace;
 }
 
@@ -49,6 +49,17 @@ div.sect1 {
   background: #ffefd5;
   margin: 0 1.0em;
   padding-top: 0.5em;
+}
+
+.screen {
+  background: #e0ffff;
+  margin: 0 1.0em;
+  padding: 0.5em;
+  border: 1px solid #B0C4DE;
+  -moz-border-radius: 1.0em;
+  -webkit-border-radius: 1.0em;
+  -khtml-border-radius: 1.0em;
+  border-radius: 1.0em;
 }
 
 .funcsynopsis p, table p, .synopsis p, .figure p {
