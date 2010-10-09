@@ -37,4 +37,7 @@ DEALINGS IN THE SOFTWARE.
   <xsl:param name="abstract.notitle.enabled" select="1"/>
   <xsl:param name="variablelist.as.table" select="1"/>
   <xsl:param name="use.svg" select="1"/>
+
+  <!-- Index links should point to indexterm location, not start of section -->
+  <xsl:param name="index.links.to.section" select="0"/>
 </xsl:stylesheet>
