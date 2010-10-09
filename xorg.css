@@ -74,7 +74,7 @@ td {
   padding-left: 0.5em;
 }
 
-h1, .author, .pubdate, .abstract {
+h1, .author, .pubdate, .abstract, .subtitle, .releaseinfo, .authorgroup {
   text-align: center;
 }
 
