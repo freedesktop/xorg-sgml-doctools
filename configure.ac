@@ -34,6 +34,8 @@ m4_ifndef([XORG_MACROS_VERSION],
 XORG_MACROS_VERSION(1.3)
 XORG_DEFAULT_OPTIONS
 
+AC_SUBST([sgmlrootdir],['${datarootdir}/sgml'])
+
 AC_PROG_INSTALL
 
 AC_OUTPUT([

@@ -19,7 +19,7 @@
 #  TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
 #  PERFORMANCE OF THIS SOFTWARE.
 
-sgmldir = $(prefix)/share/sgml/X11
+sgmldir = $(sgmlrootdir)/X11
 
 dist_sgml_DATA = defs.ent xorg.css xorg.xsl
 
