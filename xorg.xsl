@@ -40,4 +40,10 @@ DEALINGS IN THE SOFTWARE.
 
   <!-- Index links should point to indexterm location, not start of section -->
   <xsl:param name="index.links.to.section" select="0"/>
+
+  <!--
+     Speed up ps & pdf creation by not creating pages with "draft" image,
+     thus not needing to wait for http fetch of draft.png from docbook website.
+    -->
+  <xsl:param name="draft.mode" select="no"/>
 </xsl:stylesheet>
