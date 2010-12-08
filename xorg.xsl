@@ -46,4 +46,12 @@ DEALINGS IN THE SOFTWARE.
      thus not needing to wait for http fetch of draft.png from docbook website.
     -->
   <xsl:param name="draft.mode" select="no"/>
+
+  <!--
+     Make links in pdf output blue so it's easier to tell they're links.
+    -->
+  <xsl:attribute-set name="xref.properties">
+    <xsl:attribute name="color">blue</xsl:attribute>
+  </xsl:attribute-set>
+
 </xsl:stylesheet>
