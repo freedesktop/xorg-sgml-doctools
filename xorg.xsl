@@ -41,6 +41,10 @@ DEALINGS IN THE SOFTWARE.
   <!-- Index links should point to indexterm location, not start of section -->
   <xsl:param name="index.links.to.section" select="0"/>
 
+  <!-- PDF bookmarks extensions for FOP version 0.90 and later will be used. -->
+  <xsl:param name="fop.extensions" select="0"></xsl:param>
+  <xsl:param name="fop1.extensions" select="1"></xsl:param>
+
   <!--
      Speed up ps & pdf creation by not creating pages with "draft" image,
      thus not needing to wait for http fetch of draft.png from docbook website.
