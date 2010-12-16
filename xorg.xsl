@@ -58,4 +58,21 @@ DEALINGS IN THE SOFTWARE.
     <xsl:attribute name="color">blue</xsl:attribute>
   </xsl:attribute-set>
 
+  <!--
+     Since a number of documents, especially the credits section in the
+     ReleaseNotes, use characters not found in the fop default base-14
+     PostScript fonts, set the fonts for the fop generated documents to
+     use the free DejaVu and GNU Unifont fonts which cover a much wider
+     range of characters.
+
+     DejaVu is available from http://dejavu-fonts.org/
+     GNU Unifont is available from http://unifoundry.com/unifont.html
+
+     To set fop font paths to find them after installing, see
+     http://xmlgraphics.apache.org/fop/1.0/fonts.html#basics
+    -->
+  <xsl:param name="body.font.family">DejaVu Serif</xsl:param>
+  <xsl:param name="symbol.font.family">serif,Symbol,GNU Unifont</xsl:param>
+
+
 </xsl:stylesheet>
