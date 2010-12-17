@@ -4,7 +4,7 @@
 <!-- since we don't do micro (7.x.y) releases of the katamari, *relvers
 	are now the same as *fullrelvers -->
 <!ENTITY majorvers 	 "7">
-<!ENTITY reldate 	 "November 2010">
+<!ENTITY reldate 	 "December 2010">
 <!ENTITY relvers 	 "7.6">
 <!ENTITY fullrelvers 	 "7.6">
 <!ENTITY prevrelvers 	 "7.5">
