@@ -72,7 +72,7 @@ DEALINGS IN THE SOFTWARE.
      http://xmlgraphics.apache.org/fop/1.0/fonts.html#basics
     -->
   <xsl:param name="body.font.family">DejaVu Serif</xsl:param>
-  <xsl:param name="symbol.font.family">serif,Symbol,GNU Unifont</xsl:param>
+  <xsl:param name="symbol.font.family">serif,Symbol,AR PL UMing CN,AR PL ShanHeiSun Uni,GNU Unifont</xsl:param>
 
 
 </xsl:stylesheet>
