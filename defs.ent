@@ -14,7 +14,7 @@
 <!ENTITY nextfullreldate "2011">
 
 <!ENTITY whichfullrel 	 "seventh">
-<!ENTITY rcnum 		 "1">
+<!ENTITY rcnum 		 "0">
 
 <!-- These should be set according to which snapshot/release this is -->
 <!ENTITY % firstsnap 'IGNORE'>
