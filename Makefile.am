@@ -19,9 +19,13 @@
 #  TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
 #  PERFORMANCE OF THIS SOFTWARE.
 
-sgmldir = $(sgmlrootdir)/X11
+SUBDIRS = masterdb
 
-dist_sgml_DATA = defs.ent xorg.css xorg.xsl
+dist_sgmlx11_DATA =		\
+	defs.ent xorg.css	\
+	xorg.xsl		\
+	xorg-xhtml.xsl		\
+	xorg-fo.xsl
 
 pkgconfigdir = $(datadir)/pkgconfig
 pkgconfig_DATA = xorg-sgml-doctools.pc
