@@ -61,31 +61,35 @@ listed here. This allows crosslinking between documents.
         </document>
       </dir>
       <dir name="libX11">
-        <document targetdoc="libX11" baseuri="libX11.__ext__">
-          <xi:include href="libX11.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
-            <xi:fallback></xi:fallback>
-          </xi:include>
-        </document>
-        <dir name="framework">
-          <document targetdoc="framework" baseuri="framework.__ext__">
-            <xi:include href="framework.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <dir name="libX11">
+          <document targetdoc="libX11" baseuri="libX11.__ext__">
+            <xi:include href="libX11.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
               <xi:fallback></xi:fallback>
             </xi:include>
           </document>
         </dir>
-        <dir name="localedb">
-          <document targetdoc="localedb" baseuri="localedb.__ext__">
-            <xi:include href="localedb.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
-              <xi:fallback></xi:fallback>
-            </xi:include>
-          </document>
-        </dir>
-        <dir name="trans">
-          <document targetdoc="trans" baseuri="trans.__ext__">
-            <xi:include href="trans.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
-              <xi:fallback></xi:fallback>
-            </xi:include>
-          </document>
+        <dir name="i18n">
+          <dir name="framework">
+            <document targetdoc="framework" baseuri="framework.__ext__">
+              <xi:include href="framework.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+                <xi:fallback></xi:fallback>
+              </xi:include>
+            </document>
+          </dir>
+          <dir name="localedb">
+            <document targetdoc="localedb" baseuri="localedb.__ext__">
+              <xi:include href="localedb.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+                <xi:fallback></xi:fallback>
+              </xi:include>
+            </document>
+          </dir>
+          <dir name="trans">
+            <document targetdoc="trans" baseuri="trans.__ext__">
+              <xi:include href="trans.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+                <xi:fallback></xi:fallback>
+              </xi:include>
+            </document>
+          </dir>
         </dir>
         <dir name="XIM">
             <document targetdoc="xim" baseuri="xim.__ext__">
