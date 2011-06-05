@@ -64,6 +64,13 @@ configure option. For external references to work, it is assumed that
 the each package installs the documentation using the relative
 doc/${PACKAGE_TARNAME} location.
 
+It is also a requirement that all packages containing DocBook/XML documentation
+be installed under the same read-only architecture independent installation
+directory as evidenced by the DATAROOTDIR package value. This value should also
+be the same for the xorg-sgml-doctools package. The purpose of this requirement
+is to form a document tree of a known structure such that stylesheets,
+masterdb, target dbs and other files can be reached.
+
 The Docbook stylesheet technology will create references with paths relative
 to this location. It will navigate up to "doc" using ../ and then navigate
 down to the document it refers to.

@@ -11,16 +11,20 @@ CLEANFILES = $(sgmldbs_DATA)
 
 %.html.xml: %.xml
 	$(AM_V_GEN)$(SED) -e 's|__ext__|html|g' \
-	-e 's|__db__|html|g' < $< > $@
+	-e 's|__db__|html|g' \
+	-e 's|@datarootdir[@]|$(datarootdir)|g' < $< > $@
 
 %.txt.xml: %.xml
 	$(AM_V_GEN)$(SED) -e 's|__ext__|txt|g' \
-	-e 's|__db__|html|g' < $< > $@
+	-e 's|__db__|html|g' \
+	-e 's|@datarootdir[@]|$(datarootdir)|g' < $< > $@
 
 %.pdf.xml: %.xml
 	$(AM_V_GEN)$(SED) -e 's|__ext__|pdf|g' \
-	-e 's|__db__|fo|g' < $< > $@
+	-e 's|__db__|fo|g' \
+	-e 's|@datarootdir[@]|$(datarootdir)|g' < $< > $@
 
 %.ps.xml: %.xml
 	$(AM_V_GEN)$(SED) -e 's|__ext__|ps|g' \
-	-e 's|__db__|fo|g' < $< > $@
+	-e 's|__db__|fo|g' \
+	-e 's|@datarootdir[@]|$(datarootdir)|g' < $< > $@

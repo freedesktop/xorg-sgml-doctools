@@ -38,24 +38,24 @@ listed here. This allows crosslinking between documents.
     <!-- Libraries -->
       <dir name="libICE">
         <document targetdoc="ICElib" baseuri="ICElib.__ext__">
-          <xi:include href="ICElib.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <xi:include href="@datarootdir@/doc/libICE/ICElib.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
         <document targetdoc="ice" baseuri="ice.__ext__">
-          <xi:include href="ice.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <xi:include href="@datarootdir@/doc/libICE/ice.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
       </dir>
       <dir name="libSM">
         <document targetdoc="SMlib" baseuri="SMlib.__ext__">
-          <xi:include href="SMlib.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <xi:include href="@datarootdir@/doc/libSM/SMlib.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
         <document targetdoc="xsmp" baseuri="xsmp.__ext__">
-          <xi:include href="xsmp.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <xi:include href="@datarootdir@/doc/libSM/xsmp.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
@@ -63,7 +63,7 @@ listed here. This allows crosslinking between documents.
       <dir name="libX11">
         <dir name="libX11">
           <document targetdoc="libX11" baseuri="libX11.__ext__">
-            <xi:include href="libX11.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+            <xi:include href="@datarootdir@/doc/libX11/libX11/libX11.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
               <xi:fallback></xi:fallback>
             </xi:include>
           </document>
@@ -71,21 +71,21 @@ listed here. This allows crosslinking between documents.
         <dir name="i18n">
           <dir name="framework">
             <document targetdoc="framework" baseuri="framework.__ext__">
-              <xi:include href="framework.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+              <xi:include href="@datarootdir@/doc/libX11/i18n/framework/framework.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
                 <xi:fallback></xi:fallback>
               </xi:include>
             </document>
           </dir>
           <dir name="localedb">
             <document targetdoc="localedb" baseuri="localedb.__ext__">
-              <xi:include href="localedb.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+              <xi:include href="@datarootdir@/doc/libX11/i18n/localedb/localedb.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
                 <xi:fallback></xi:fallback>
               </xi:include>
             </document>
           </dir>
           <dir name="trans">
             <document targetdoc="trans" baseuri="trans.__ext__">
-              <xi:include href="trans.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+              <xi:include href="@datarootdir@/doc/libX11/i18n/trans/trans.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
                 <xi:fallback></xi:fallback>
               </xi:include>
             </document>
@@ -93,14 +93,14 @@ listed here. This allows crosslinking between documents.
         </dir>
         <dir name="XIM">
             <document targetdoc="xim" baseuri="xim.__ext__">
-              <xi:include href="xim.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+              <xi:include href="@datarootdir@/doc/libX11/XIM/xim.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
                 <xi:fallback></xi:fallback>
               </xi:include>
             </document>
         </dir>
         <dir name="XKB">
             <document targetdoc="xkblib" baseuri="xkblib.__ext__">
-              <xi:include href="xkblib.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+              <xi:include href="@datarootdir@/doc/libX11/XKB/xkblib.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
                 <xi:fallback></xi:fallback>
               </xi:include>
             </document>
@@ -108,74 +108,74 @@ listed here. This allows crosslinking between documents.
       </dir>
       <dir name="libXaw">
         <document targetdoc="libXaw" baseuri="libXaw.__ext__">
-          <xi:include href="libXaw.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <xi:include href="@datarootdir@/doc//libXaw/libXaw.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
       </dir>
       <dir name="libXdmcp">
         <document targetdoc="xdmcp" baseuri="xdmcp.__ext__">
-          <xi:include href="xdmcp.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <xi:include href="@datarootdir@/doc//libXdmcp/xdmcp.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
       </dir>
       <dir name="libXext">
         <document targetdoc="dbelib" baseuri="dbelib.__ext__">
-          <xi:include href="dbelib.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <xi:include href="@datarootdir@/doc/libXext/dbelib.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
         <document targetdoc="dpmslib" baseuri="dpmslib.__ext__">
-          <xi:include href="dpmslib.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <xi:include href="@datarootdir@/doc/libXext/dpmslib.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
         <document targetdoc="shapelib" baseuri="shapelib.__ext__">
-          <xi:include href="shapelib.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <xi:include href="@datarootdir@/doc/libXext/shapelib.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
         <document targetdoc="synclib" baseuri="synclib.__ext__">
-          <xi:include href="synclib.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <xi:include href="@datarootdir@/doc/libXext/synclib.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
         <document targetdoc="xtest1" baseuri="xtest1.__ext__">
-          <xi:include href="xtest1.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <xi:include href="@datarootdir@/doc/libXext/xtest1.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
       </dir>
       <dir name="libXi">
         <document targetdoc="inputlib" baseuri="inputlib.__ext__">
-          <xi:include href="inputlib.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <xi:include href="@datarootdir@/doc/libXi/inputlib.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
       </dir>
       <dir name="libXmu">
         <document targetdoc="Xmu" baseuri="Xmu.__ext__">
-          <xi:include href="Xmu.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <xi:include href="@datarootdir@/doc/libXmu/Xmu.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
       </dir>
       <dir name="libXtst">
         <document targetdoc="recordlib" baseuri="recordlib.__ext__">
-          <xi:include href="recordlib.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <xi:include href="@datarootdir@/doc/libXtst/recordlib.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
         <document targetdoc="xtestlib" baseuri="xtestlib.__ext__">
-          <xi:include href="xtestlib.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <xi:include href="@datarootdir@/doc/libXtst/xtestlib.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
       </dir>
       <dir name="xtrans">
         <document targetdoc="xtrans" baseuri="xtrans.__ext__">
-          <xi:include href="xtrans.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <xi:include href="@datarootdir@/doc/xtrans/xtrans.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
@@ -183,116 +183,116 @@ listed here. This allows crosslinking between documents.
     <!-- Protocols -->
       <dir name="bigreqsproto">
         <document targetdoc="bigreq" baseuri="bigreq.__ext__">
-          <xi:include href="bigreq.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <xi:include href="@datarootdir@/doc/bigreqsproto/bigreq.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
       </dir>
       <dir name="fontsproto">
         <document targetdoc="fsproto" baseuri="fsproto.__ext__">
-          <xi:include href="fsproto.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <xi:include href="@datarootdir@/doc/fontsproto/fsproto.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
       </dir>
       <dir name="kbproto">
         <document targetdoc="xkbproto" baseuri="xkbproto.__ext__">
-          <xi:include href="xkbproto.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <xi:include href="@datarootdir@/doc/kbproto/xkbproto.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
       </dir>
       <dir name="recordproto">
         <document targetdoc="record" baseuri="record.__ext__">
-          <xi:include href="record.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <xi:include href="@datarootdir@/doc/recordproto/record.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
       </dir>
       <dir name="scrnsaverproto">
         <document targetdoc="saver" baseuri="saver.__ext__">
-          <xi:include href="saver.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <xi:include href="@datarootdir@/doc/scrnsaverproto/saver.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
       </dir>
       <dir name="xcmiscproto">
         <document targetdoc="xc-misc" baseuri="xc-misc.__ext__">
-          <xi:include href="xc-misc.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <xi:include href="@datarootdir@/doc/xcmiscproto/xc-misc.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
       </dir>
       <dir name="xextproto">
         <document targetdoc="appgrp" baseuri="appgrp.__ext__">
-          <xi:include href="appgrp.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <xi:include href="@datarootdir@/doc/xextproto/appgrp.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
         <document targetdoc="dbe" baseuri="dbe.__ext__">
-          <xi:include href="dbe.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <xi:include href="@datarootdir@/doc/xextproto/dbe.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
         <document targetdoc="dpms" baseuri="dpms.__ext__">
-          <xi:include href="dpms.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <xi:include href="@datarootdir@/doc/xextproto/dpms.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
         <document targetdoc="evi" baseuri="evi.__ext__">
-          <xi:include href="evi.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <xi:include href="@datarootdir@/doc/xextproto/evi.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
         <document targetdoc="geproto" baseuri="geproto.__ext__">
-          <xi:include href="geproto.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <xi:include href="@datarootdir@/doc/xextproto/geproto.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
         <document targetdoc="lbx" baseuri="lbx.__ext__">
-          <xi:include href="lbx.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <xi:include href="@datarootdir@/doc/xextproto/lbx.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
         <document targetdoc="multibuf" baseuri="multibuf.__ext__">
-          <xi:include href="multibuf.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <xi:include href="@datarootdir@/doc/xextproto/multibuf.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
         <document targetdoc="security" baseuri="security.__ext__">
-          <xi:include href="security.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <xi:include href="@datarootdir@/doc/xextproto/security.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
         <document targetdoc="shape" baseuri="shape.__ext__">
-          <xi:include href="shape.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <xi:include href="@datarootdir@/doc/xextproto/shape.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
         <document targetdoc="shm" baseuri="shm.__ext__">
-          <xi:include href="shm.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <xi:include href="@datarootdir@/doc/xextproto/shm.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
         <document targetdoc="sync" baseuri="sync.__ext__">
-          <xi:include href="sync.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <xi:include href="@datarootdir@/doc/xextproto/sync.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
         <document targetdoc="tog-cup" baseuri="tog-cup.__ext__">
-          <xi:include href="tog-cup.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <xi:include href="@datarootdir@/doc/xextproto/tog-cup.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
         <document targetdoc="xtest" baseuri="xtest.__ext__">
-          <xi:include href="xtest.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <xi:include href="@datarootdir@/doc/xextproto/xtest.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
       </dir>
       <dir name="xproto">
         <document targetdoc="x11protocol" baseuri="x11protocol.__ext__">
-          <xi:include href="x11protocol.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <xi:include href="@datarootdir@/doc/xproto/x11protocol.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
@@ -300,109 +300,109 @@ listed here. This allows crosslinking between documents.
     <!-- X.Org System Documentation -->
       <dir name="xorg-docs">
         <document targetdoc="License" baseuri="License.__ext__">
-          <xi:include href="License.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <xi:include href="@datarootdir@/doc/xorg-docs/License.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
         <document targetdoc="README" baseuri="README.__ext__">
-          <xi:include href="README.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <xi:include href="@datarootdir@/doc/xorg-docs/README.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
         <document targetdoc="ReleaseNotes" baseuri="ReleaseNotes.__ext__">
-          <xi:include href="ReleaseNotes.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <xi:include href="@datarootdir@/doc/xorg-docs/ReleaseNotes.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
         <document targetdoc="Versions" baseuri="Versions.__ext__">
-          <xi:include href="Versions.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <xi:include href="@datarootdir@/doc/xorg-docs/Versions.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
         <dir name="fonts">
           <document targetdoc="fonts" baseuri="fonts.__ext__">
-            <xi:include href="fonts.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+            <xi:include href="@datarootdir@/doc/xorg-docs/fonts/fonts.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
               <xi:fallback></xi:fallback>
             </xi:include>
           </document>
         </dir>
         <dir name="graphics">
           <document targetdoc="dps" baseuri="dps.__ext__">
-            <xi:include href="dps.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+            <xi:include href="@datarootdir@/doc/xorg-docs/graphics/dps.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
               <xi:fallback></xi:fallback>
             </xi:include>
           </document>
         </dir>
         <dir name="input">
           <document targetdoc="XKB-Config" baseuri="XKB-Config.__ext__">
-            <xi:include href="XKB-Config.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+            <xi:include href="@datarootdir@/doc/xorg-docs/input/XKB-Config.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
               <xi:fallback></xi:fallback>
             </xi:include>
           </document>
           <document targetdoc="XKB-Enhancing" baseuri="XKB-Enhancing.__ext__">
-            <xi:include href="XKB-Enhancing.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+            <xi:include href="@datarootdir@/doc/xorg-docs/input/XKB-Enhancing.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
               <xi:fallback></xi:fallback>
             </xi:include>
           </document>
         </dir>
         <dir name="platforms">
           <document targetdoc="Darwin" baseuri="Darwin.__ext__">
-            <xi:include href="Darwin.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+            <xi:include href="@datarootdir@/doc/xorg-docs/platforms/Darwin.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
               <xi:fallback></xi:fallback>
             </xi:include>
           </document>
           <document targetdoc="Solaris" baseuri="Solaris.__ext__">
-            <xi:include href="Solaris.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+            <xi:include href="@datarootdir@/doc/xorg-docs/platforms/Solaris.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
               <xi:fallback></xi:fallback>
             </xi:include>
           </document>
         </dir>
         <dir name="ctext">
           <document targetdoc="ctext" baseuri="ctext.__ext__">
-            <xi:include href="ctext.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+            <xi:include href="@datarootdir@/doc/xorg-docs/ctext/ctext.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
               <xi:fallback></xi:fallback>
             </xi:include>
           </document>
         </dir>
         <dir name="icccm">
           <document targetdoc="icccm" baseuri="icccm.__ext__">
-            <xi:include href="icccm.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+            <xi:include href="@datarootdir@/doc/xorg-docs/icccm/icccm.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
               <xi:fallback></xi:fallback>
             </xi:include>
           </document>
         </dir>
         <dir name="xext">
           <document targetdoc="lbxalg" baseuri="lbxalg.__ext__">
-            <xi:include href="lbxalg.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+            <xi:include href="@datarootdir@/doc/xorg-docs/xext/lbxalg.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
               <xi:fallback></xi:fallback>
             </xi:include>
           </document>
         </dir>
-        <dir name="xfld">
+        <dir name="xlfd">
           <document targetdoc="xlfd" baseuri="xlfd.__ext__">
-            <xi:include href="xlfd.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+            <xi:include href="@datarootdir@/doc/xorg-docs/xlfd/xlfd.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
               <xi:fallback></xi:fallback>
             </xi:include>
           </document>
         </dir>
-        <dir name="xserver">
+        <dir name="Xserver">
           <document targetdoc="appgroup" baseuri="appgroup.__ext__">
-            <xi:include href="appgroup.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+            <xi:include href="@datarootdir@/doc/xorg-docs/Xserver/appgroup.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
               <xi:fallback></xi:fallback>
             </xi:include>
           </document>
           <document targetdoc="analysis" baseuri="analysis.__ext__">
-            <xi:include href="analysis.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+            <xi:include href="@datarootdir@/doc/xorg-docs/Xserver/analysis.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
               <xi:fallback></xi:fallback>
             </xi:include>
           </document>
           <document targetdoc="secint" baseuri="secint.__ext__">
-            <xi:include href="secint.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+            <xi:include href="@datarootdir@/doc/xorg-docs/Xserver/secint.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
               <xi:fallback></xi:fallback>
             </xi:include>
           </document>
           <document targetdoc="XACE-Spec" baseuri="XACE-Spec.__ext__">
-            <xi:include href="XACE-Spec.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+            <xi:include href="@datarootdir@/doc/xorg-docs/Xserver/XACE-Spec.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
               <xi:fallback></xi:fallback>
             </xi:include>
           </document>
@@ -411,7 +411,7 @@ listed here. This allows crosslinking between documents.
     <!-- X Server -->
       <dir name="xorg-server">
         <document targetdoc="Xserver-DTrace" baseuri="Xserver-DTrace.__ext__">
-          <xi:include href="Xserver-DTrace.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+          <xi:include href="@datarootdir@/doc/xorg-server/Xserver-DTrace.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
