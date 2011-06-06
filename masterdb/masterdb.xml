@@ -153,11 +153,6 @@ listed here. This allows crosslinking between documents.
             <xi:fallback></xi:fallback>
           </xi:include>
         </document>
-        <document targetdoc="porting" baseuri="porting.__ext__">
-          <xi:include href="porting.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
-            <xi:fallback></xi:fallback>
-          </xi:include>
-        </document>
       </dir>
       <dir name="libXmu">
         <document targetdoc="Xmu" baseuri="Xmu.__ext__">
