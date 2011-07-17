@@ -69,6 +69,13 @@ listed here. This allows crosslinking between documents.
           </document>
         </dir>
         <dir name="i18n">
+          <dir name="compose">
+            <document targetdoc="libX11-keys" baseuri="libX11-keys.__ext__">
+              <xi:include href="@datarootdir@/doc/libX11/i18n/compose/libX11-keys.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+                <xi:fallback></xi:fallback>
+              </xi:include>
+            </document>
+          </dir>
           <dir name="framework">
             <document targetdoc="framework" baseuri="framework.__ext__">
               <xi:include href="@datarootdir@/doc/libX11/i18n/framework/framework.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
