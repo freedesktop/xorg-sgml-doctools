@@ -25,6 +25,7 @@ dist_sgmlx11_DATA =		\
 	defs.ent xorg.css	\
 	xorg.xsl		\
 	xorg-xhtml.xsl		\
+	xorg-chunk.xsl		\
 	xorg-fo.xsl
 
 pkgconfigdir = $(datadir)/pkgconfig
