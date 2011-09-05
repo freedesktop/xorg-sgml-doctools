@@ -11,10 +11,9 @@ A new feature with version 1.7 is references to documents in other
 packages. For example a protocol specifications may refer to another
 one or to a library implementing it.
 
-This feature works with PDF, HTML, PS (and epub?) generated documents
-and will generate links to the other versions of the same type, i.e. html
-docs will link to other html docs,  and pdf docs will link to other pdf
-docs.
+This feature works with PDF and HTML generated documents and will generate
+links to the other versions of the same type, i.e. html docs will link to
+other html docs,  and pdf docs will link to other pdf docs.
 
 Due to the modular nature of the X window System and the flexibility
 it provides to O/S builders, one should not expect all links to
@@ -90,11 +89,11 @@ These files are generated and installed while the documents are being build.
 This is what a Docbook/XML reference from docA to docB looks like (docA.xml):
 <olink targetdoc='docB' targetptr='docBfragment'>Title</olink>
 
-This is what an HTML reference from docA to docB looks like (docA.html):
+This is what a non-chunked HTML reference from docA to docB looks like (docA.html):
 <a href="docB.html#docBfragment" class="olink">Title</a>
 
 This is what an HTML targetdoc for docB looks like (docB.html.db):
-<div element="article" href="#docBfragment" number="" targetptr="docBfragment">
+<div element="article" href="docB.html#docBfragment" number="" targetptr="docBfragment">
 
 This is what an HTML reference from docA to docB looks like (docA.html)
 when the reference cannot be resolved:
@@ -114,14 +113,14 @@ This can be caused by one or more of the following:
 Some pitfalls
 -------------------------
 <book id="docA"> in docA.xml: the id must match the file basename.
-In xorg-*.xsl, <xsl:param name="current.docid" select="/*/@id"/>
+In docs Makefile.am --stringparam current.docid="$(<:.xml=)"
 supplies docid for *.db. The document id must be unique across
 all documents.
 
-The baseuri attribute in masterdb.xml is required for pdf/ps references
-to work. It cannot be replaced with olink.base.uri in the makefile.
+The baseuri attribute in masterdb.xml cannot be used as it conflicts for
+documents generated in chunked html.
 
-The pdf/ps "inside the document" references only started working with
+The pdf "inside the document" references only started working with
 docbook-xsl v 1.76.1 which is not yet available to your favorite O/S.
 In xorg-fo.xsl, insert.olink.pdf.frag must be set to zero which allows
 the reference to at least point to the top of the document.
