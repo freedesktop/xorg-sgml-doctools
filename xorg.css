@@ -104,6 +104,7 @@ div.article>div.section>div.titlepage h2.title {
  * These authors are not always contained inside an authorgroup.
  * They can be contained inside a lot of different parent types where they might
  * not be centered.
+ * Reducing the margin at the bottom makes a visual separation between authors
  * We specify here the ones on the title page, others may be added based on merit.
  */
 div.titlepage .authorgroup,
@@ -114,17 +115,14 @@ div.titlepage .corpcredit,
 div.titlepage .editor,
 div.titlepage .othercredit {
   text-align: center;
+  margin-bottom: 0.25em;
 }
 
 /*
  * Selection: the affiliation of various types of authors and collaborators,
  * individuals or corporate.
- *
- * The affiliation should be closer to the author such that it visually
- * groups the affiliation with the author.
  */
 div.titlepage .affiliation {
-  margin-top: -0.8em;
   text-align: center;
 }
 
