@@ -20,7 +20,7 @@
 
 # Initialize Autoconf
 AC_PREREQ([2.60])
-AC_INIT([xorg-sgml-doctools], [1.9],
+AC_INIT([xorg-sgml-doctools], [1.10],
 	[https://bugs.freedesktop.org/enter_bug.cgi?product=xorg], [xorg-sgml-doctools])
 AC_CONFIG_SRCDIR([Makefile.am])
 
