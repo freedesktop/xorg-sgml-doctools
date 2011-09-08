@@ -69,12 +69,8 @@ body {
 }
 
 /*
- * 			<!DOCTYPE book PUBLIC ... >
- *
  * Books have a title page, a preface, some chapters and appendices,
  * a glossary, an index and a bibliography, in that order.
- *
- * 			<!DOCTYPE article PUBLIC ... >
  *
  * An Article has no preface and no chapters. It has sections, appendices,
  * a glossary, an index and a bibliography.
@@ -255,7 +251,7 @@ div.bibliography>div.titlepage h2.title {
 /*
  * Selection: variable lists, informal tables and tables
  *
- * Note the <xsl:param name="variablelist.as.table" select="1"/> in xorg-xhtml.xsl
+ * Note the parameter name "variablelist.as.table" in xorg-xhtml.xsl
  * A table with rows and columns is constructed inside div.variablelist
  *
  * Set the left margin so it is indented to the right

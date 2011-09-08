@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<!DOCTYPE xsl:stylesheet [
+<!ENTITY xorgcss SYSTEM "xorg.css">
+]>
 <!--
 			X.Org DocBook/XML customization
 
@@ -9,6 +11,13 @@
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version='1.0'>
 <xsl:import href="http://docbook.sourceforge.net/release/xsl/current/xhtml/docbook.xsl"/>
+
+<!-- Embedding CSS styles http://www.sagehill.net/docbookxsl/HtmlHead.html#EmbedCSS -->
+<xsl:template name="user.head.content">
+<style type="text/css">
+<xsl:text disable-output-escaping="yes">&xorgcss;</xsl:text>
+</style>
+</xsl:template>
 
 			<!-- Reference Pages HTML/FO Parameters -->
 
