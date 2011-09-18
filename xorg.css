@@ -152,6 +152,18 @@ div.titlepage .pubdate {
 }
 
 /*
+ * For documentation having multiple licenses, the copyright and legalnotice
+ * elements sequence cannot instantiated multiple times.
+ * The copyright notice and license text are therefore coded inside a legalnotice
+ * element. The role attribute on the paragraph is used to allow styling of the
+ * copyright notice text which should not be italicized.
+ */
+p.multiLicensing {
+  font-style: normal;
+  font-size: medium;
+}
+
+/*
  * Selection: book or article main ToC title
  * A paragraph is generated for the title rather than a level 2 heading.
  * We do not want to select chapters sub table of contents, only the main one
