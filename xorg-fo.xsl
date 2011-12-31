@@ -94,4 +94,11 @@
   <xsl:param name="body.font.family">DejaVu Serif</xsl:param>
   <xsl:param name="symbol.font.family">serif,Symbol,AR PL UMing CN,AR PL ShanHeiSun Uni,GNU Unifont</xsl:param>
 
+  <!-- put page breaks before and after the Table of Contents,
+       so that the ToC is on a page by itself  -->
+  <xsl:attribute-set name="toc.margin.properties">
+    <xsl:attribute name="break-before">page</xsl:attribute>
+    <xsl:attribute name="break-after">page</xsl:attribute>
+  </xsl:attribute-set>
+
 </xsl:stylesheet>
