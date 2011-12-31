@@ -31,6 +31,16 @@
   <!-- SVG will be considered an acceptable image format -->
   <xsl:param name="use.svg" select="1"/>
 
+                        <!-- ToC/LoT/Index Generation -->
+  <!-- put page breaks before and after the Table of Contents,
+       so that the ToC is on a page by itself
+       Reference: http://www.sagehill.net/docbookxsl/PrintToc.html
+  -->
+  <xsl:attribute-set name="toc.margin.properties">
+    <xsl:attribute name="break-before">page</xsl:attribute>
+    <xsl:attribute name="break-after">page</xsl:attribute>
+  </xsl:attribute-set>
+
 			<!-- Pagination and General Styles FO Parameters -->
   <!--
      Speed up ps & pdf creation by not creating pages with "draft" image,
