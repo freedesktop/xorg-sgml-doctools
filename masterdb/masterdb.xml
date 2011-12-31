@@ -168,6 +168,13 @@ listed here. This allows crosslinking between documents.
           </xi:include>
         </document>
       </dir>
+      <dir name="libXt">
+        <document targetdoc="intrinsics">
+          <xi:include href="@datarootdir@/doc/libXt/intrinsics.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
+            <xi:fallback></xi:fallback>
+          </xi:include>
+        </document>
+      </dir>
       <dir name="libXtst">
         <document targetdoc="recordlib">
           <xi:include href="@datarootdir@/doc/libXtst/recordlib.__db__.db" xmlns:xi="http://www.w3.org/2001/XInclude">
