@@ -4,7 +4,7 @@
 <!-- since we don't do micro (7.x.y) releases of the katamari, *relvers
 	are now the same as *fullrelvers -->
 <!ENTITY majorvers 	 "7">
-<!ENTITY reldate 	 "April 2012">
+<!ENTITY reldate 	 "June 2012">
 <!ENTITY relvers 	 "7.7">
 <!ENTITY fullrelvers 	 "7.7">
 <!ENTITY prevrelvers 	 "7.6">
@@ -19,10 +19,10 @@
 <!-- These should be set according to which snapshot/release this is -->
 <!ENTITY % firstsnap 'IGNORE'>
 <!ENTITY % latersnap 'IGNORE'>
-<!ENTITY % snapshot 'INCLUDE'>
-<!ENTITY % notsnapshot 'IGNORE'>
-<!ENTITY % relcandidate 'INCLUDE'>
-<!ENTITY % release 'IGNORE'>
+<!ENTITY % snapshot 'IGNORE'>
+<!ENTITY % notsnapshot 'INCLUDE'>
+<!ENTITY % relcandidate 'IGNORE'>
+<!ENTITY % release 'INCLUDE'>
 <!ENTITY % firstrel 'IGNORE'>
 <!ENTITY % earlyrel 'IGNORE'>
 <!ENTITY % laterrel 'INCLUDE'>
