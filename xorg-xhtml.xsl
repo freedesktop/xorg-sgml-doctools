@@ -44,6 +44,12 @@
   <!-- Index links should point to indexterm location, not start of section -->
   <xsl:param name="index.links.to.section" select="0"/>
 
+  <!--
+      Use element count instead of random number for id generation, for more
+      repeatable builds
+    -->
+  <xsl:param name="generate.consistent.ids" select="1"/>
+
 			<!-- HTML Parameters -->
 
   <!-- Uses XSLT Extension to provide more valid and better formatted elements-->

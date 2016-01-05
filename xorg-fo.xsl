@@ -41,6 +41,13 @@
     <xsl:attribute name="break-after">page</xsl:attribute>
   </xsl:attribute-set>
 
+  <!--
+      Use element count instead of random number for id generation, for more
+      repeatable builds
+    -->
+  <xsl:param name="generate.consistent.ids" select="1"/>
+
+
 			<!-- Pagination and General Styles FO Parameters -->
   <!--
      Speed up ps & pdf creation by not creating pages with "draft" image,
